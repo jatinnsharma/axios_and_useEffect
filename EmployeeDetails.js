@@ -3,7 +3,7 @@ import React from 'react'
 function EmployeeDetails({details}) {
   return (
     <div>
-    //Employee Details
+    //Employee Details.
         <h1>Employee Details</h1>
         <p>Employee Name : {details.name?.first}</p>
         <p>Employee phone : {details.phone}</p>
